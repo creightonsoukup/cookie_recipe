@@ -1,0 +1,18 @@
+body {
+  background-color: #FFE;
+  }
+h4 {
+  color: #887;
+  font-size: 18px;
+}
+a {
+  color: #900;
+  font-size: 16px;
+}
+p[type="nutrition"] {
+  font-size: 16px;
+}
+
+img {
+  border: 10px solid black;
+}
