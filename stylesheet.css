@@ -1,5 +1,6 @@
 body {
   background-color: #FFE;
+  padding-left: 50px;
   }
 h4 {
   color: #887;
@@ -13,6 +14,28 @@ p[type="nutrition"] {
   font-size: 16px;
 }
 
-img {
-  border: 10px solid black;
+h2 {
+  font-size: 18px;
 }
+
+img {
+  border: 10px solid #7a8b89;
+}
+
+#top, #bottom, #left, #right {
+	background: #7a8b89;
+	position: fixed;
+	}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+	#left { left: 0; }
+	#right { right: 0; }
+
+#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
